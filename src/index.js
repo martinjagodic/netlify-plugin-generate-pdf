@@ -1,4 +1,4 @@
-// This is the main file for the Netlify Build plugin {{name}}.
+// This is the main file for the Netlify Build plugin generate-pdf.
 // Please read the comments to learn more about the Netlify Build plugin syntax.
 // Find more information in the Netlify documentation.
 
@@ -17,7 +17,7 @@ module.exports = {
     // For example:
     //
     //   [[plugins]]
-    //   package = "netlify-plugin-{{name}}"
+    //   package = "netlify-plugin-generate-pdf"
     //     [plugins.inputs]
     //     foo = "bar"
     inputs,
