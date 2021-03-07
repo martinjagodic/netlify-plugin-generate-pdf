@@ -3,7 +3,7 @@ Generate a PDF from HTML at the provided URL and save it to publish directory.
 
 ## Install
 
-Copy `src/index.js`, `manifest.yml` and `package.json` to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
+Copy [index.js](src/index.js), <manifest.yml> and <package.json> to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
 
 And add this to `netlify.toml`:
 
@@ -14,7 +14,7 @@ And add this to `netlify.toml`:
 
 [[plugins]]
   package = "./plugins/netlify-plugin-generate-pdf"
-  
+
   [plugins.inputs]
   url="my-site.netlify.app"
 ```
