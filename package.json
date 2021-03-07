@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-generate-pdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Netlify Build plugin - Generate PDF from HTML",
   "main": "src/index.js",
   "files": [
