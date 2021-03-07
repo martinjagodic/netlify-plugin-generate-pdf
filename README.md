@@ -3,9 +3,9 @@ Generate a PDF from HTML at the provided URL and save it to publish directory.
 
 ## Install
 
-Copy [index.js](src/index.js), <manifest.yml> and <package.json> to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
+Copy [index.js](src/index.js), [manifest.yml](manifest.yml) and [package.json](package.json) to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
 
-And add this to `netlify.toml`:
+And add this to your `netlify.toml`:
 
 ```toml
 # you need this to run locally saved plugins: https://answers.netlify.com/t/plugin-local-install-core/15268
