@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 const chromium = require('chrome-aws-lambda')
-const { puppeteer } = chromium
+const puppeteer = require('puppeteer')
 
 module.exports = {
   async onPostBuild({

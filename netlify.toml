@@ -9,7 +9,7 @@
 package = "."
   # Plugin configuration
    [plugins.inputs]
-   url = "https://c19.division.film/"
+   url = "https://www.google.com/"
 
 [build]
 # Dummy build command
