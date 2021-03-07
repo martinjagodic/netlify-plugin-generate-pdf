@@ -5,7 +5,7 @@ const chromium = require('chrome-aws-lambda')
 const { puppeteer } = chromium
 
 module.exports = {
-  async onPostBuild ({
+  async onPostBuild({
     inputs,
     constants: { PUBLISH_DIR },
     utils: { build, status },

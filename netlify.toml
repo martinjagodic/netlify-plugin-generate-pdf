@@ -8,8 +8,8 @@
 # Local path to the plugin.
 package = "."
   # Plugin configuration
-  #  [plugins.inputs]
-  #  foo = "bar"
+   [plugins.inputs]
+   url = "https://c19.division.film/"
 
 [build]
 # Dummy build command

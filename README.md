@@ -1,9 +1,12 @@
 # Netlify Plugin Generate PDF
+
 Generate a PDF from HTML at the provided URL and save it to publish directory.
 
 ## Install
 
-Copy [index.js](src/index.js), [manifest.yml](manifest.yml) and [package.json](package.json) to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
+Copy [src/index.js](src/index.js), [manifest.yml](manifest.yml) and
+[package.json](package.json) to `plugins/netlify-plugin-generate-pdf` on your
+repo and run `npm install`.
 
 And add this to your `netlify.toml`:
 
@@ -23,13 +26,13 @@ And add this to your `netlify.toml`:
 
 The following `inputs` options are available.
 
-| Name | Type | Description | Default value | Required |
-|-|-|-|-|-|
-| url | string | abosulte path to generate PDF from |-| true |
-| fileName | string | name of generated PDF file | index.pdf | false |
-| format | string | Print format | A4 | false |
-| printBackground | boolean | Enable if you want to print images and backgrounds | true | false |
-| displayHeaderFooter | boolean | Add a header and footer to each page | false | false |
-| headerTemplate | string | HTML for page header | - | false |
-| footerTemplate | string | HTML for page footer | - | false |
-| margin | object | Page margin | { top: '1cm', right: '1cm', bottom: '1cm', left: '1cm' } | false |
+| Name                | Type    | Description                                        | Default value                                            | Required |
+| ------------------- | ------- | -------------------------------------------------- | -------------------------------------------------------- | -------- |
+| url                 | string  | abosulte path to generate PDF from                 | -                                                        | true     |
+| fileName            | string  | name of generated PDF file                         | index.pdf                                                | false    |
+| format              | string  | Print format                                       | A4                                                       | false    |
+| printBackground     | boolean | Enable if you want to print images and backgrounds | true                                                     | false    |
+| displayHeaderFooter | boolean | Add a header and footer to each page               | false                                                    | false    |
+| headerTemplate      | string  | HTML for page header                               | -                                                        | false    |
+| footerTemplate      | string  | HTML for page footer                               | -                                                        | false    |
+| margin              | object  | Page margin                                        | { top: '1cm', right: '1cm', bottom: '1cm', left: '1cm' } | false    |
