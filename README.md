@@ -14,7 +14,7 @@ The following `inputs` options are available.
 | url | string | abosulte path to generate PDF from |-| true |
 | fileName | string | name of generated PDF file | index.pdf | false |
 | format | string | Print format | A4 | false |
-| printBackground | boolean | - | true | false |
+| printBackground | boolean | Enable if you want to print images and backgrounds | true | false |
 | displayHeaderFooter | boolean | Add a header and footer to each page | false | false |
 | headerTemplate | string | HTML for page header | - | false |
 | footerTemplate | string | HTML for page footer | - | false |
