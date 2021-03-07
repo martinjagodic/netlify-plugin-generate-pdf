@@ -1,4 +1,4 @@
-# Metlify Plugin Generate PDF
+# Netlify Plugin Generate PDF
 Generate a PDF from HTML at the provided URL and save it to publish directory.
 
 ## Install
