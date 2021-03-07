@@ -1,9 +1,23 @@
-# netlify-plugin-generate-pdf
-This plugin will generate a PDF from HTML at the provided URL and save it to publish directory.
+# Metlify Plugin Generate PDF
+Generate a PDF from HTML at the provided URL and save it to publish directory.
 
 ## Install
 
-Please install this plugin from the Netlify app.
+Copy `src/index.js`, `manifest.yml` and `package.json` to `plugins/netlify-plugin-generate-pdf` on your repo and run `npm install`.
+
+And add this to `netlify.toml`:
+
+```toml
+# you need this to run locally saved plugins: https://answers.netlify.com/t/plugin-local-install-core/15268
+[[plugins]]
+  package = "@netlify/plugin-local-install-core"
+
+[[plugins]]
+  package = "./plugins/netlify-plugin-generate-pdf"
+  
+  [plugins.inputs]
+  url="my-site.netlify.app"
+```
 
 ## Configuration
 
