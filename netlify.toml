@@ -8,8 +8,8 @@
 # Local path to the plugin.
 package = "."
   # Plugin configuration
-   [plugins.inputs]
-   url = "https://www.google.com/"
+  [plugins.inputs]
+  url = "https://www.google.com/"
 
 [build]
 # Dummy build command
